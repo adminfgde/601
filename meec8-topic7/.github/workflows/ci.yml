@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: [self-hosted, vps]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+          cache: pip
+      - name: 安装依赖
+        run: |
+          pip install -r requirements.txt pytest
+      - name: 单元测试（模拟器 / 设计暴雨 / 特征工程 / 预警 / SWMM）
+        run: python -m pytest tests -q
+      - name: 快速端到端冒烟（3 天模拟 → 预警链路）
+        run: |
+          python -m src.simulation.generate --days 3 --seed 1 --out data/simulated_ci
+          python -m src.simulation.design_storm --return-periods 5

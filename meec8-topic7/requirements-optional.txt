@@ -1,0 +1,1 @@
+torch>=2.0  # CPU 即可：仅 src/models/deep_forecast.py 需要（pip install --index-url https://download.pytorch.org/whl/cpu torch）

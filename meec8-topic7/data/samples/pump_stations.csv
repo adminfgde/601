@@ -1,0 +1,7 @@
+pump_id,node_id,n_pumps,unit_capacity_m3h,total_capacity_m3h,wet_well_volume_m3
+PS01,PLANT_IN,5,1200.0,6000.0,1354
+PS02,T11,5,1200.0,6000.0,853
+PS03,T10,3,900.0,2700.0,868
+PS04,T03,3,1200.0,3600.0,1354
+PS05,T07,3,900.0,2700.0,672
+PS06,T09,3,600.0,1800.0,1220

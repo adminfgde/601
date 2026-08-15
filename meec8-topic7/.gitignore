@@ -1,0 +1,5 @@
+data/external/
+data/simulated*/
+data/processed/
+__pycache__/
+.pytest_cache/

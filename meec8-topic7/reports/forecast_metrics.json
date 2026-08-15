@@ -1,0 +1,542 @@
+[
+ {
+  "dataset": "koeln",
+  "target": "inflow",
+  "horizon_min": 60,
+  "n_train": 78819,
+  "n_test": 26274,
+  "model": {
+   "MAE": 15.4,
+   "RMSE": 37.1,
+   "NSE": 0.942
+  },
+  "mlp": {
+   "MAE": 20.45,
+   "RMSE": 92.1,
+   "NSE": 0.6423
+  },
+  "seasonal_naive": {
+   "MAE": 99.03,
+   "RMSE": 202.81,
+   "NSE": -0.7343
+  },
+  "persistence": {
+   "MAE": 27.41,
+   "RMSE": 61.79,
+   "NSE": 0.839
+  },
+  "interval": {
+   "PICP_80": 0.715,
+   "MPIW": 39.1
+  },
+  "model_rainy": {
+   "MAE": 64.07,
+   "RMSE": 97.91,
+   "NSE": 0.8197
+  }
+ },
+ {
+  "dataset": "koeln",
+  "target": "inflow",
+  "horizon_min": 120,
+  "n_train": 78816,
+  "n_test": 26273,
+  "model": {
+   "MAE": 29.42,
+   "RMSE": 67.31,
+   "NSE": 0.809
+  },
+  "mlp": {
+   "MAE": 34.32,
+   "RMSE": 113.51,
+   "NSE": 0.4568
+  },
+  "seasonal_naive": {
+   "MAE": 99.03,
+   "RMSE": 202.81,
+   "NSE": -0.7343
+  },
+  "persistence": {
+   "MAE": 47.56,
+   "RMSE": 94.54,
+   "NSE": 0.6232
+  },
+  "interval": {
+   "PICP_80": 0.72,
+   "MPIW": 64.0
+  },
+  "model_rainy": {
+   "MAE": 110.25,
+   "RMSE": 151.23,
+   "NSE": 0.5538
+  }
+ },
+ {
+  "dataset": "koeln",
+  "target": "inflow",
+  "horizon_min": 180,
+  "n_train": 78813,
+  "n_test": 26272,
+  "model": {
+   "MAE": 40.03,
+   "RMSE": 87.51,
+   "NSE": 0.6771
+  },
+  "mlp": {
+   "MAE": 44.52,
+   "RMSE": 134.15,
+   "NSE": 0.2412
+  },
+  "seasonal_naive": {
+   "MAE": 99.04,
+   "RMSE": 202.82,
+   "NSE": -0.7343
+  },
+  "persistence": {
+   "MAE": 64.16,
+   "RMSE": 116.93,
+   "NSE": 0.4235
+  },
+  "interval": {
+   "PICP_80": 0.735,
+   "MPIW": 81.0
+  },
+  "model_rainy": {
+   "MAE": 139.21,
+   "RMSE": 177.96,
+   "NSE": 0.4136
+  }
+ },
+ {
+  "dataset": "taihe",
+  "target": "inflow",
+  "horizon_min": 60,
+  "n_train": 19845,
+  "n_test": 6616,
+  "model": {
+   "MAE": 147.49,
+   "RMSE": 438.17,
+   "NSE": 0.9637
+  },
+  "mlp": {
+   "MAE": 236.84,
+   "RMSE": 461.98,
+   "NSE": 0.9596
+  },
+  "seasonal_naive": {
+   "MAE": 799.19,
+   "RMSE": 3017.52,
+   "NSE": -0.7227
+  },
+  "persistence": {
+   "MAE": 611.34,
+   "RMSE": 1848.72,
+   "NSE": 0.3534
+  },
+  "interval": {
+   "PICP_80": 0.695,
+   "MPIW": 351.6
+  },
+  "model_rainy": {
+   "MAE": 1249.95,
+   "RMSE": 1772.82,
+   "NSE": 0.9392
+  }
+ },
+ {
+  "dataset": "taihe",
+  "target": "inflow",
+  "horizon_min": 120,
+  "n_train": 19836,
+  "n_test": 6613,
+  "model": {
+   "MAE": 136.12,
+   "RMSE": 356.65,
+   "NSE": 0.9759
+  },
+  "mlp": {
+   "MAE": 238.72,
+   "RMSE": 451.06,
+   "NSE": 0.9615
+  },
+  "seasonal_naive": {
+   "MAE": 799.53,
+   "RMSE": 3018.2,
+   "NSE": -0.7229
+  },
+  "persistence": {
+   "MAE": 1060.04,
+   "RMSE": 2721.96,
+   "NSE": -0.4013
+  },
+  "interval": {
+   "PICP_80": 0.688,
+   "MPIW": 342.9
+  },
+  "model_rainy": {
+   "MAE": 593.8,
+   "RMSE": 859.24,
+   "NSE": 0.9664
+  }
+ },
+ {
+  "dataset": "taihe",
+  "target": "inflow",
+  "horizon_min": 180,
+  "n_train": 19827,
+  "n_test": 6610,
+  "model": {
+   "MAE": 128.58,
+   "RMSE": 334.59,
+   "NSE": 0.9788
+  },
+  "mlp": {
+   "MAE": 220.14,
+   "RMSE": 440.99,
+   "NSE": 0.9632
+  },
+  "seasonal_naive": {
+   "MAE": 799.81,
+   "RMSE": 3018.88,
+   "NSE": -0.7232
+  },
+  "persistence": {
+   "MAE": 1388.79,
+   "RMSE": 3129.62,
+   "NSE": -0.8519
+  },
+  "interval": {
+   "PICP_80": 0.693,
+   "MPIW": 349.3
+  },
+  "model_rainy": {
+   "MAE": 338.93,
+   "RMSE": 553.61,
+   "NSE": 0.9609
+  }
+ },
+ {
+  "dataset": "taihe",
+  "target": "cod",
+  "horizon_min": 60,
+  "n_train": 19845,
+  "n_test": 6616,
+  "model": {
+   "MAE": 22.69,
+   "RMSE": 37.09,
+   "NSE": 0.3912
+  },
+  "mlp": {
+   "MAE": 22.5,
+   "RMSE": 34.29,
+   "NSE": 0.4798
+  },
+  "seasonal_naive": {
+   "MAE": 38.67,
+   "RMSE": 66.69,
+   "NSE": -0.9675
+  },
+  "persistence": {
+   "MAE": 30.05,
+   "RMSE": 45.84,
+   "NSE": 0.0703
+  },
+  "interval": {
+   "PICP_80": 0.704,
+   "MPIW": 53.9
+  },
+  "model_rainy": {
+   "MAE": 67.68,
+   "RMSE": 103.43,
+   "NSE": 0.0966
+  }
+ },
+ {
+  "dataset": "taihe",
+  "target": "cod",
+  "horizon_min": 120,
+  "n_train": 19836,
+  "n_test": 6613,
+  "model": {
+   "MAE": 24.36,
+   "RMSE": 41.18,
+   "NSE": 0.2501
+  },
+  "mlp": {
+   "MAE": 24.98,
+   "RMSE": 37.35,
+   "NSE": 0.383
+  },
+  "seasonal_naive": {
+   "MAE": 38.68,
+   "RMSE": 66.7,
+   "NSE": -0.9676
+  },
+  "persistence": {
+   "MAE": 34.81,
+   "RMSE": 56.0,
+   "NSE": -0.387
+  },
+  "interval": {
+   "PICP_80": 0.703,
+   "MPIW": 56.5
+  },
+  "model_rainy": {
+   "MAE": 58.75,
+   "RMSE": 99.13,
+   "NSE": 0.1369
+  }
+ },
+ {
+  "dataset": "taihe",
+  "target": "cod",
+  "horizon_min": 180,
+  "n_train": 19827,
+  "n_test": 6610,
+  "model": {
+   "MAE": 25.73,
+   "RMSE": 45.2,
+   "NSE": 0.0966
+  },
+  "mlp": {
+   "MAE": 25.09,
+   "RMSE": 36.81,
+   "NSE": 0.401
+  },
+  "seasonal_naive": {
+   "MAE": 38.68,
+   "RMSE": 66.71,
+   "NSE": -0.9675
+  },
+  "persistence": {
+   "MAE": 38.56,
+   "RMSE": 63.07,
+   "NSE": -0.7587
+  },
+  "interval": {
+   "PICP_80": 0.705,
+   "MPIW": 58.3
+  },
+  "model_rainy": {
+   "MAE": 62.7,
+   "RMSE": 103.0,
+   "NSE": -0.5088
+  }
+ },
+ {
+  "dataset": "taihe",
+  "target": "cod_load",
+  "horizon_min": 60,
+  "n_train": 19845,
+  "n_test": 6616,
+  "model": {
+   "MAE": 94.84,
+   "RMSE": 154.51,
+   "NSE": 0.8112
+  },
+  "mlp": {
+   "MAE": 96.66,
+   "RMSE": 141.41,
+   "NSE": 0.8419
+  },
+  "seasonal_naive": {
+   "MAE": 132.03,
+   "RMSE": 179.58,
+   "NSE": 0.745
+  },
+  "persistence": {
+   "MAE": 174.76,
+   "RMSE": 221.89,
+   "NSE": 0.6107
+  },
+  "interval": {
+   "PICP_80": 0.702,
+   "MPIW": 224.3
+  },
+  "model_rainy": {
+   "MAE": 271.01,
+   "RMSE": 406.24,
+   "NSE": -0.5811
+  }
+ },
+ {
+  "dataset": "taihe",
+  "target": "cod_load",
+  "horizon_min": 120,
+  "n_train": 19836,
+  "n_test": 6613,
+  "model": {
+   "MAE": 99.56,
+   "RMSE": 174.06,
+   "NSE": 0.7604
+  },
+  "mlp": {
+   "MAE": 99.87,
+   "RMSE": 144.24,
+   "NSE": 0.8355
+  },
+  "seasonal_naive": {
+   "MAE": 132.06,
+   "RMSE": 179.62,
+   "NSE": 0.7449
+  },
+  "persistence": {
+   "MAE": 281.74,
+   "RMSE": 341.52,
+   "NSE": 0.0776
+  },
+  "interval": {
+   "PICP_80": 0.706,
+   "MPIW": 229.5
+  },
+  "model_rainy": {
+   "MAE": 185.24,
+   "RMSE": 294.08,
+   "NSE": 0.1102
+  }
+ },
+ {
+  "dataset": "taihe",
+  "target": "cod_load",
+  "horizon_min": 180,
+  "n_train": 19827,
+  "n_test": 6610,
+  "model": {
+   "MAE": 107.03,
+   "RMSE": 192.56,
+   "NSE": 0.7066
+  },
+  "mlp": {
+   "MAE": 104.53,
+   "RMSE": 149.58,
+   "NSE": 0.823
+  },
+  "seasonal_naive": {
+   "MAE": 132.07,
+   "RMSE": 179.64,
+   "NSE": 0.7447
+  },
+  "persistence": {
+   "MAE": 379.22,
+   "RMSE": 453.86,
+   "NSE": -0.6296
+  },
+  "interval": {
+   "PICP_80": 0.713,
+   "MPIW": 239.9
+  },
+  "model_rainy": {
+   "MAE": 178.08,
+   "RMSE": 267.22,
+   "NSE": 0.3808
+  }
+ },
+ {
+  "dataset": "taihe",
+  "target": "nh3n_load",
+  "horizon_min": 60,
+  "n_train": 19845,
+  "n_test": 6616,
+  "model": {
+   "MAE": 6.99,
+   "RMSE": 9.02,
+   "NSE": 0.9142
+  },
+  "mlp": {
+   "MAE": 7.46,
+   "RMSE": 9.92,
+   "NSE": 0.8961
+  },
+  "seasonal_naive": {
+   "MAE": 11.05,
+   "RMSE": 14.22,
+   "NSE": 0.7869
+  },
+  "persistence": {
+   "MAE": 14.88,
+   "RMSE": 18.33,
+   "NSE": 0.6457
+  },
+  "interval": {
+   "PICP_80": 0.697,
+   "MPIW": 18.5
+  },
+  "model_rainy": {
+   "MAE": 10.46,
+   "RMSE": 13.48,
+   "NSE": 0.779
+  }
+ },
+ {
+  "dataset": "taihe",
+  "target": "nh3n_load",
+  "horizon_min": 120,
+  "n_train": 19836,
+  "n_test": 6613,
+  "model": {
+   "MAE": 7.05,
+   "RMSE": 9.13,
+   "NSE": 0.912
+  },
+  "mlp": {
+   "MAE": 7.71,
+   "RMSE": 10.6,
+   "NSE": 0.8816
+  },
+  "seasonal_naive": {
+   "MAE": 11.05,
+   "RMSE": 14.22,
+   "NSE": 0.7868
+  },
+  "persistence": {
+   "MAE": 24.21,
+   "RMSE": 29.04,
+   "NSE": 0.1106
+  },
+  "interval": {
+   "PICP_80": 0.694,
+   "MPIW": 18.2
+  },
+  "model_rainy": {
+   "MAE": 8.98,
+   "RMSE": 11.56,
+   "NSE": 0.8289
+  }
+ },
+ {
+  "dataset": "taihe",
+  "target": "nh3n_load",
+  "horizon_min": 180,
+  "n_train": 19827,
+  "n_test": 6610,
+  "model": {
+   "MAE": 7.1,
+   "RMSE": 9.3,
+   "NSE": 0.9088
+  },
+  "mlp": {
+   "MAE": 7.94,
+   "RMSE": 11.4,
+   "NSE": 0.8629
+  },
+  "seasonal_naive": {
+   "MAE": 11.05,
+   "RMSE": 14.22,
+   "NSE": 0.7867
+  },
+  "persistence": {
+   "MAE": 32.91,
+   "RMSE": 39.09,
+   "NSE": -0.6117
+  },
+  "interval": {
+   "PICP_80": 0.697,
+   "MPIW": 18.4
+  },
+  "model_rainy": {
+   "MAE": 8.18,
+   "RMSE": 10.59,
+   "NSE": 0.8817
+  }
+ }
+]
